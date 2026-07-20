@@ -1,0 +1,27 @@
+name: RFC Proposal
+about: Propose a new or amended RFC
+labels: [rfc]
+body:
+  - type: input
+    id: rfc_id
+    attributes:
+      label: RFC ID (if known)
+      placeholder: rfc-000X
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Context and motivation
+    validations:
+      required: true
+  - type: textarea
+    id: spec
+    attributes:
+      label: Core specification summary
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Security and risk considerations
+    validations:
+      required: true

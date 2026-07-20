@@ -1,0 +1,36 @@
+name: docs-ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.16.0
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Markdown lint
+        run: pnpm lint:md
+
+      - name: Link check (internal links)
+        run: pnpm check:links --config .markdown-link-check.json
