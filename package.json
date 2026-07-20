@@ -1,0 +1,16 @@
+{
+  "name": "ryvra-docs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Canonical documentation repository for Ryvra Protocol.",
+  "packageManager": "pnpm@10.16.0",
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"README.md\" \"CONTRIBUTING.md\" \"SECURITY.md\" \"docs/**/*.md\" \".github/**/*.md\"",
+    "check:links": "markdown-link-check -q --config .markdown-link-check.json README.md docs/**/*.md",
+    "check": "pnpm lint:md && pnpm check:links"
+  },
+  "devDependencies": {
+    "markdown-link-check": "3.14.1",
+    "markdownlint-cli2": "0.14.0"
+  }
+}

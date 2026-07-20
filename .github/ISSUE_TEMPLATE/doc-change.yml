@@ -1,0 +1,28 @@
+name: Doc Change
+about: Propose updates to existing documentation
+labels: [documentation]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Affected areas
+      options:
+        - label: RFC
+        - label: Tokenomics
+        - label: Governance
+        - label: Operations
+        - label: Reference
