@@ -9,4 +9,5 @@
 1. Merge approved documentation updates.
 2. Update changelog and decision log.
 3. Verify cross-repo alignment checklist.
-4. Publish release notes for downstream repository consumers.
+4. Publish production readiness and evidence index for hardening/signoff traceability.
+5. Publish release notes for downstream repository consumers.
