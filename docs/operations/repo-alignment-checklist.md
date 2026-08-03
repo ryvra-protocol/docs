@@ -24,6 +24,10 @@ Use this checklist for changes that may affect implementation repositories.
 | `docs/rfc-0005-policy-decision-engine.md` | `/docs/rfc/rfc-0005-policy-decision-engine.md` |
 | `docs/rfc-0006-pay-rails-and-payment-intents.md` | `/docs/rfc/rfc-0006-pay-rails-and-payment-intents.md` |
 | `docs/rfc-0007-markets-intents-and-execution.md` | `/docs/rfc/rfc-0007-markets-intents-and-execution.md` |
+| `docs/production-architecture-unified-assets-aa.md` | `/docs/architecture/production-unified-assets-aa-overview.md` |
+| `docs/compatibility-unified-assets-aa.md` | `/docs/reference/api-contract-compatibility-matrix.md` |
+| `docs/runbook-unified-assets-aa.md` | `/docs/operations/runbooks/unified-assets-aa-incident-response.md` |
+| `docs/release-notes-unified-assets-aa.md` | `/docs/changelog/2026-08-03-release-unified-assets-aa.md` |
 | `docs/tokenomics-proof-of-transaction.md` | `/docs/tokenomics/proof-of-transaction.md` |
 | `docs/tokenomics-faq.md` | `/docs/tokenomics/tokenomics-faq.md` |
 | `docs/brand-narrative.md` | `/docs/architecture/brand-narrative.md` |

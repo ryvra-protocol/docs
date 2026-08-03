@@ -7,7 +7,10 @@ Ryvra Docs is the canonical source of truth for Ryvra Protocol specifications an
 - [Tokenomics](./docs/tokenomics/README.md)
 - [Governance](./docs/governance/README.md)
 - [Architecture](./docs/architecture/brand-narrative.md)
-- [Operations and roadmap/versioning references](./docs/operations/release-versioning.md)
+- [Operations](./docs/operations/README.md)
+- [Production architecture overview: unified assets + ERC-4337](./docs/architecture/production-unified-assets-aa-overview.md)
+- [Compatibility matrix: unified assets + ERC-4337](./docs/reference/api-contract-compatibility-matrix.md)
+- [Release notes: 2026-08-03 unified assets + ERC-4337](./docs/changelog/2026-08-03-release-unified-assets-aa.md)
 
 ## How to propose changes (quick flow)
 1. Open an issue using a docs or RFC template.

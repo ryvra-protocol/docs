@@ -21,8 +21,8 @@ Use `/docs/reference/templates/rfc-template.md` and complete all required sectio
 ## RFC index (baseline)
 | RFC | Title | Status |
 |---|---|---|
-| [RFC-0001](./rfc-0001-aa-unified-assets.md) | AA Unified Assets | Draft |
-| [RFC-0002](./rfc-0002-accounts-interfaces.md) | Accounts Interfaces | Draft |
+| [RFC-0001](./rfc-0001-aa-unified-assets.md) | AA Unified Assets | Accepted |
+| [RFC-0002](./rfc-0002-accounts-interfaces.md) | Accounts Interfaces | Accepted |
 | [RFC-0003](./rfc-0003-asset-schema-and-valuation.md) | Asset Schema and Valuation | Draft |
 | [RFC-0004](./rfc-0004-ledger-and-settlement-state-machine.md) | Ledger and Settlement State Machine | Draft |
 | [RFC-0005](./rfc-0005-policy-decision-engine.md) | Policy Decision Engine | Draft |
