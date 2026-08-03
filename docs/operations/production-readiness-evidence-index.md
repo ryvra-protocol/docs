@@ -18,22 +18,22 @@
 
 | Track | Evidence link | Owner |
 | --- | --- | --- |
-| H1 contract hardening | https://github.com/ryvra-protocol/protocol-core/pulls?q=is%3Apr+is%3Amerged+label%3AH1 | protocol-core maintainers |
-| H2 accounts runtime hardening | https://github.com/ryvra-protocol/accounts/pulls?q=is%3Apr+is%3Amerged+label%3AH2 | accounts maintainers |
-| H3 orchestration/policy hardening | https://github.com/ryvra-protocol/markets/pulls?q=is%3Apr+is%3Amerged+label%3AH3 | markets maintainers |
-| H4 asset + settlement hardening | https://github.com/ryvra-protocol/ledger-settlement/pulls?q=is%3Apr+is%3Amerged+label%3AH4 | ledger-settlement maintainers |
-| H5 payment reliability hardening | https://github.com/ryvra-protocol/pay/pulls?q=is%3Apr+is%3Amerged+label%3AH5 | pay maintainers |
+| H1 contract hardening | [protocol-core H1 merged PRs](https://github.com/ryvra-protocol/protocol-core/pulls?q=is%3Apr+is%3Amerged+label%3AH1) | protocol-core maintainers |
+| H2 accounts runtime hardening | [accounts H2 merged PRs](https://github.com/ryvra-protocol/accounts/pulls?q=is%3Apr+is%3Amerged+label%3AH2) | accounts maintainers |
+| H3 orchestration/policy hardening | [markets H3 merged PRs](https://github.com/ryvra-protocol/markets/pulls?q=is%3Apr+is%3Amerged+label%3AH3) | markets maintainers |
+| H4 asset + settlement hardening | [ledger-settlement H4 merged PRs](https://github.com/ryvra-protocol/ledger-settlement/pulls?q=is%3Apr+is%3Amerged+label%3AH4) | ledger-settlement maintainers |
+| H5 payment reliability hardening | [pay H5 merged PRs](https://github.com/ryvra-protocol/pay/pulls?q=is%3Apr+is%3Amerged+label%3AH5) | pay maintainers |
 
 ## CI, drill, and signoff evidence
 
 | Evidence type | Link |
 | --- | --- |
-| Docs CI (this repository) | https://github.com/ryvra-protocol/docs/actions/workflows/ci.yml |
-| protocol-core release workflow evidence | https://github.com/ryvra-protocol/protocol-core/actions |
-| accounts release workflow evidence | https://github.com/ryvra-protocol/accounts/actions |
-| Chaos drill records | https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Achaos-drill |
-| Rollback drill records | https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Arollback-drill |
-| GO/NO-GO signoff record | https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Ago-no-go+label%3Aapproved |
+| Docs CI (this repository) | [docs-ci workflow](https://github.com/ryvra-protocol/docs/actions/workflows/ci.yml) |
+| protocol-core release workflow evidence | [protocol-core actions](https://github.com/ryvra-protocol/protocol-core/actions) |
+| accounts release workflow evidence | [accounts actions](https://github.com/ryvra-protocol/accounts/actions) |
+| Chaos drill records | [chaos-drill issues](https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Achaos-drill) |
+| Rollback drill records | [rollback-drill issues](https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Arollback-drill) |
+| GO/NO-GO signoff record | [approved go-no-go issues](https://github.com/ryvra-protocol/protocol-core/issues?q=is%3Aissue+label%3Ago-no-go+label%3Aapproved) |
 
 ## Residual known risks
 
