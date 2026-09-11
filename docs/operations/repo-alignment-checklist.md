@@ -11,11 +11,11 @@ Use this checklist for changes that may affect implementation repositories.
 - [ ] [policy-risk](https://github.com/ryvra-protocol/policy-risk)
 - [ ] [pay](https://github.com/ryvra-protocol/pay)
 - [ ] [markets](https://github.com/ryvra-protocol/markets)
-- [ ] [agent-identity](TBD)
-- [ ] [agent-gateway](TBD)
-- [ ] [agent-runtime](TBD)
-- [ ] [confidential-execution](TBD)
-- [ ] [autonomous-finance](TBD)
+- [ ] `agent-identity` (repo TBD)
+- [ ] `agent-gateway` (repo TBD)
+- [ ] `agent-runtime` (repo TBD)
+- [ ] `confidential-execution` (repo TBD)
+- [ ] `autonomous-finance` (repo TBD)
 - [ ] [website](https://github.com/ryvra-protocol/website)
 
 ## Canonical docs mapping for downstream references
