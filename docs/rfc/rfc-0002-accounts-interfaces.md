@@ -51,6 +51,6 @@ This RFC defines production ERC-4337 integration boundaries for Ryvra smart acco
 ## Related RFCs and references
 
 - [RFC-0001](./rfc-0001-aa-unified-assets.md)
-- [RFC-0006](./rfc-0006-pay-rails-and-payment-intents.md)
-- [RFC-0007](./rfc-0007-markets-intents-and-execution.md)
+- [RFC-0006](./rfc-0006-agent-identity-mandates-capabilities.md)
+- [RFC-0007](./rfc-0007-agent-gateway-and-tool-security.md)
 - [API and contract compatibility matrix](../reference/api-contract-compatibility-matrix.md)
